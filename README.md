@@ -1,5 +1,11 @@
 [![MIT License][license-badge]][LICENSE]
 
+STEPS TO DEPLOY TO HEROKU
+1. generate secret keky (set as env variable)
+2. configure application.confif security key to look at env variable
+3. set allow hosts to allow all until I figure out what exactly to allow ["."]
+4. add nodejs build add scala build
+
 # Scala Play Angular Seed
 
 > Use play framework to develop the web application backend/services and frontend using Angular CLI, all in a totally integrated workflow and single unified console. This approach will deliver perfect development experience without CORS hassle. 
